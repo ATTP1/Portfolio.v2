@@ -1,25 +1,16 @@
-
-import './App.css'
-import NavBar from './component/navbar'
+import "./App.css";
+import NavBar from "./component/navbar";
+import Intro from "./pages/intro";
 
 function App() {
-  
-
   return (
     <>
-    <NavBar/>
-      
-      <div className='flex flex-col justify-center items-center h-screen '>
-        <img src="src/assets/IntroCircle.png" alt="" />
-        <h1 className='text-6xl'>TEST</h1>
-      </div>
+      <NavBar />
 
-      <div className='w-full h-[50vh] bg-red-200 opacity-20 backdrop-blur-[500px] absolute top-1/2  z-30'>
-
-      </div>
-      
+      <Intro />
+      <Intro />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

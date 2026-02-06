@@ -1,16 +1,29 @@
 @import "tailwindcss";
 @theme {
-    --color-baseBlue: #4a6275;
-    /* Blue Pantone */
-    --color-accentYellow: #d6cd95;
-    /* Yellow Pantone */
-    --color-accentLightBlue: #79b6d8;
-    /* LightBlue Pantone */
-    --color-accentViolet: #a793ac;
-    /* Violet Pantone*/
-    --color-baseWhite: #f0efeb;
-    /* White Pantone */
-    /**/
-    /*FONT SIZE*/
-    --text-navBar: 1.75vh;
+  --color-baseBlue: #4a6275;
+  /* Blue Pantone */
+  --color-accentYellow: #d6cd95;
+  /* Yellow Pantone */
+  --color-accentLightBlue: #79b6d8;
+  /* LightBlue Pantone */
+  --color-accentViolet: #a793ac;
+  /* Violet Pantone*/
+  --color-baseWhite: #f0efeb;
+  /* White Pantone */
+  /**/
+  /*FONT SIZE*/
+  --text-navBar: 1.75vh;
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("./assets/fonts/Coolvetica.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: Coolvetica;
+  letter-spacing: 1px;
 }
