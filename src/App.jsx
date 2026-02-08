@@ -1,6 +1,8 @@
 import "./App.css";
 import NavBar from "./component/navbar";
 import Intro from "./pages/intro";
+import Skills from "./pages/skills";
+import Projects from "./pages/projects";
 
 function App() {
   return (
@@ -8,7 +10,8 @@ function App() {
       <NavBar />
 
       <Intro />
-      <Intro />
+      <Skills />
+      <Projects />
     </>
   );
 }

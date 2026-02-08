@@ -13,6 +13,10 @@
   /**/
   /*FONT SIZE*/
   --text-navBar: 1.75vh;
+  --text-main: 3.75vh;
+  --text-mainBig: 7vh;
+  --text-underText: 1.5vh;
+  --text-skill: 1vh;
 }
 
 @font-face {
@@ -26,4 +30,18 @@
 * {
   font-family: Coolvetica;
   letter-spacing: 1px;
+}
+
+@keyframes scrollLTR {
+  0% {
+    transform: translateX(-50.5%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-scrollLTR {
+  animation: scrollLTR 20s linear infinite;
+  will-change: transform;
 }
