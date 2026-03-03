@@ -17,6 +17,11 @@
   --text-mainBig: 7vh;
   --text-underText: 1.5vh;
   --text-skill: 1vh;
+  /*lg*/
+  --text-lg-small: 3vh;
+  --text-lg-main: 9vh;
+  --text-lg-mainBig: 15vh;
+  --text-lg-skill: 2vh;
 }
 
 @font-face {
@@ -44,4 +49,13 @@
 .animate-scrollLTR {
   animation: scrollLTR 20s linear infinite;
   will-change: transform;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
 }
